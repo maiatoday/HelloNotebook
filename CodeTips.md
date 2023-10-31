@@ -1,0 +1,9 @@
+1. *Cells Division:* Use the cell division wisely. You can organise your code by dividing into relevant sections using cells. For instance, one cell for loading libraries, another for instantiating your data, separate cells for different operations, transformations, analyses, plotting, etc.
+1. *Markdown Cells:* Use markdown cells to document your code and provide explanations/annotations. This might include a summary of the cell's purpose, definitions for less obvious variables, and an explanation of the data analysis process.
+1. *Code Comments:* Use comments in your kotlin cells to explain complex parts of the code or give brief information about the purpose of the code.
+1. *Modularize Your Code:* Write your code in functions. Each function should perform a single task. It makes your code cleaner, easier to understand and troubleshoot.
+1. *Variable Naming:* Use meaningful variable names. This may seem trivial, but it can significantly affect understandability, especially when you or others refer back to the notebook in the future.
+1. *Error Handling:* Handle known errors using Kotlin's try-catch or other error handling techniques. This leads to a smoother execution experience and makes troubleshooting easier.
+1. *Cleanup:* Dedicate a cell at the end of the notebook for cleanup operations like closing file streams, database connections, or any other resource release your code might require. It's a good practice to free up resources once you're finished with them.
+1. *Order of Execution:* Make sure to maintain logical order of execution of cells because one cell may depend on variables or functions defined in another cell.
+1. *Code Consistency:* Keep your code consistent. This includes formatting, conventions for naming variables and functions, and the structure of your code.
